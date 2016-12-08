@@ -876,7 +876,7 @@ public:
 %enddef
 
 // Trainer initializers.
-// Because SWIG cannot properly handle smart pointers to derived classes (causes memory leak durint the check),
+// Because SWIG cannot properly handle smart pointers to derived classes (causes memory leak during the check),
 // we need custom constructors.
 
 %extend CNTK::Trainer
